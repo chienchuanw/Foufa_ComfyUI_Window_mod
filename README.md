@@ -3,6 +3,15 @@
 # ComfyUI
 **The most powerful and modular diffusion model GUI and backend.**
 
+## To Foufa Studio Staff Only
+
+1. Please make sure you use Python 3.10.x.
+2. Make sure you have installed Poetry as Python Package Manager
+3. `$ git clone git@github.com:chienchuanw/Foufa_ComfyUI_Window_mod.git`
+4. `$ cd Foufa_ComfyUI_Window_mod`
+5. `$ poetry install`
+6. `$ poetry shell`, notice to use `$ poetry env info` to double check the version of Python. It should be 3.10.x. If not, please install the correct Python with Pyenv.
+7. In the virtual environment, `$ python main.py`
 
 [![Website][website-shield]][website-url]
 [![Dynamic JSON Badge][discord-shield]][discord-url]
